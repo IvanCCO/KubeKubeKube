@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: taxxco
+spec: 
+  containers: 
+    - name: taxxco-container
+      image: nginx:latest
