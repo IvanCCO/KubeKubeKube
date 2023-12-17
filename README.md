@@ -2,7 +2,7 @@
 
 #### O que é kubernetes? 
 Um orquestrador de containers
->> O que é um orquestrador de containers?
+> O que é um orquestrador de containers?
 
 Imagine que sua aplicacao necessita de diversos containers para funcionar, e precisa de alta escabilidade e disponibilidade, ou seja, você **não** pode ficar fora do ar. Então é ai que o kubernetes entra. Ele tem inteligência para poder substituir os containers que "morrem". Ou seja se eu coloco meus containers dentro de um cluster Kubernetes agora ele que toma conta de gerenciar meus containers da maneira que eu configurei
 
