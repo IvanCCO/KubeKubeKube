@@ -18,4 +18,16 @@ Quando um pod é criado ele é criado com um ip, e os containers dentro dele com
 
 
 ## Dentro do cluster
+Dentro do cluster vamos ter diversas máquinas trabalhando e compartilhando recursos,
+e vamos ter máquinas principais (**master**), e máquinas que vão ser responsáveis apenas pelo trabalho duro de executar os containers dos pods(**nodes**).
+
+### Master
+Nas máquinas master que vamos nos conectar para cordenar nosso cluster kubernetes, onde faremos a criaćão ou remoćão de recursos.
+. Gerencia o cluster
+. Mantém o estado
+. Vai receber os comandos para alterar os recursos -> Control Plane 
+
+### Nodes
+Responsável apenas por executar a aplicacao
+
 
