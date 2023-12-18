@@ -33,3 +33,5 @@ Nas máquinas master que vamos nos conectar para cordenar nosso cluster kubernet
 ### Nodes
 
 Responsável apenas por executar a aplicação
+
+(test)
