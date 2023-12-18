@@ -26,9 +26,10 @@ e vamos ter máquinas principais (**master**), e máquinas que vão ser respons�
 ### Master
 
 Nas máquinas master que vamos nos conectar para cordenar nosso cluster kubernetes, onde faremos a criaćão ou remoćão de recursos.
-. Gerencia o cluster
-. Mantém o estado
-. Vai receber os comandos para alterar os recursos -> Control Plane
+
+- Gerencia o cluster
+- Mantém o estado
+- Vai receber os comandos para alterar os recursos -> Control Plane
 
 ### Nodes
 
