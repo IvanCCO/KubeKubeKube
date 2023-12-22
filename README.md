@@ -1,6 +1,6 @@
 # Kubernetes
 
-#### O que é kubernetes?
+## O que é kubernetes?
 
 Um orquestrador de containers
 
@@ -14,7 +14,7 @@ Ele tem inteligência para poder substituir os containers que "morrem".
 Ou seja se eu coloco meus containers dentro de um cluster Kubernetes
 agora ele que toma conta de gerenciar meus containers da maneira que eu configurei
 
-#### Recursos
+### Recursos
 
 O kubernetes tem diversos Recursos(resources) que o ajudam a conseguir fazer esse gerenciamento de containers, por exemplo, se eu coloco um novo container no meu cluster kubernetes ele sabe qual máquina que é melhor para colocar meu container, então eu não preciso ficar preocupado com isso pois sei que o kubernetes está fazendo isso por mim.
 Ou por exemplo, caso algum container da minha aplicacao fique down e morra, ele tem inteligia para poder substituir o container caído.
@@ -61,3 +61,9 @@ Para isso tem um recurso chamado **_Service_**
 - Prove ip fixo para comunicação
 - Fazem o balanceamento de carga
 - Proveem um dns para um ou + pods
+
+## Tipos de serviço
+
+### Cluster IP
+
+Serve para fazer a comunicação de diferentes pods dentro de um mesmo cluster.
