@@ -16,8 +16,14 @@ agora ele que toma conta de gerenciar meus containers da maneira que eu configur
 
 ### Recursos
 
-O kubernetes tem diversos Recursos(resources) que o ajudam a conseguir fazer esse gerenciamento de containers, por exemplo, se eu coloco um novo container no meu cluster kubernetes ele sabe qual máquina que é melhor para colocar meu container, então eu não preciso ficar preocupado com isso pois sei que o kubernetes está fazendo isso por mim.
-Ou por exemplo, caso algum container da minha aplicacao fique down e morra, ele tem inteligia para poder substituir o container caído.
+O kubernetes tem diversos Recursos(resources)
+que o ajudam a conseguir fazer esse gerenciamento de containers,
+por exemplo, se eu coloco um novo container no meu cluster
+kubernetes ele sabe qual máquina que é melhor para colocar meu container,
+então eu não preciso ficar preocupado com isso
+pois sei que o kubernetes está fazendo isso por mim.
+Ou por exemplo, caso algum container da minha aplicacao fique downe morra,
+ele tem inteligia para poder substituir o container caído.
 
 #### POD
 
