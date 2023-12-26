@@ -73,3 +73,9 @@ Para isso tem um recurso chamado **_Service_**
 ### Cluster IP
 
 Serve para fazer a comunicação de diferentes pods dentro de um mesmo cluster.
+
+
+
+### Node port
+
+Abre a comunicação para o mundo externo ou seja para conseguir acessar o node
